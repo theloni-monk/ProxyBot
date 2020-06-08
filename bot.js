@@ -27,7 +27,7 @@ var bot = new Discord.Client();
 
 bot.on('ready', () => {
     console.log(`Logged in as ${bot.user.tag}!`);
-    let channelID = '719599089884332086';
+    let channelID = '719599089884332086'; // hardcoded hacky goodness
     bot.channels.fetch(channelID).then((channel) => channel.send('ProxyBot up and running on ' + name))
 });
 
