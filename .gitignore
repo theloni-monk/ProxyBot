@@ -1,3 +1,5 @@
+# Private credentials
+.creds
 # Logs
 logs
 *.log
